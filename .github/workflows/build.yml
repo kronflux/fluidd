@@ -3,14 +3,12 @@ name: BUILD
 on:
   push:
     branches:
-      - develop
-      - master
+      - k2
     tags:
       - 'v*'
   pull_request:
     branches:
-      - develop
-      - master
+      - k2
 
 jobs:
   build:
@@ -55,7 +53,7 @@ jobs:
   publish-docker:
     name: Publish Docker Image
     needs: build
-    if: ${{ github.event_name != 'pull_request' }}
+    if: ${{ github.repository == 'fluidd-core/fluidd' && github.ref == 'refs/heads/develop' && github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     permissions:
       id-token: write
