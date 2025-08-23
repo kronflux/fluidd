@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.34.3-k2](https://github.com/fluidd-core/fluidd/compare/v1.34.3...kronflux:fluidd:k2) (2025-08-23)
+
+
+### Features
+
+* **Camera** Add support for the Creality K2 camera stream ([3eb92a02](https://github.com/kronflux/fluidd/commit/3eb92a02266ef23983cb3693ebd4baabf98e1ceb))
+
 ## [1.34.3](https://github.com/fluidd-core/fluidd/compare/v1.34.2...v1.34.3) (2025-06-16)
 
 
