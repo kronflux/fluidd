@@ -659,6 +659,7 @@ app:
       mjpegstream: MJPEG Stream
       hlsstream: HLS Stream
       webrtc_camera_streamer: WebRTC (camera-streamer)
+      webrtc_crealityk2: WebRTC (Creality K2)
       video: IP Camera
       iframe: HTTP page
       uv4l_mjpeg_stream: UV4L-MJPEG Stream

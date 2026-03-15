@@ -30,7 +30,7 @@ declare namespace Moonraker.Webcam {
     uid: string;
   }
 
-  export type Service = 'mjpegstreamer' | 'mjpegstreamer-adaptive' | 'ipstream' | 'iframe' | 'hlsstream' | 'webrtc-camerastreamer' | 'webrtc-go2rtc' | 'webrtc-mediamtx' | 'uv4l-mjpeg' | 'device'
+  export type Service = 'mjpegstreamer' | 'mjpegstreamer-adaptive' | 'ipstream' | 'iframe' | 'hlsstream' | 'webrtc-camerastreamer' | 'webrtc-go2rtc' | 'webrtc-mediamtx' | 'webrtc-crealityk2' | 'uv4l-mjpeg' | 'device'
 
   export type Rotation = 0 | 90 | 180 | 270
 
